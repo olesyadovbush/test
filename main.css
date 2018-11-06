@@ -1,0 +1,29 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    margin: auto;
+    width: 30em;
+    height: 20em;
+}
+button{
+    padding: 0;
+    margin: auto;
+    margin-top: 1em;
+    width: 10em; 
+    height: 3em;
+    background-color: darkslategrey;
+    border: 1px solid lightslategrey;
+    border-radius: 10px;
+    color: white; 
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 23px -12px rgba(0,0,0,1);
+    background-color: white;
+    color: darkslategray;
+}
